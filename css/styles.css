@@ -13,6 +13,19 @@ body {
   --color-background-footer: rgba(47, 48, 58, 1);
 }
 
+h1,h2,h3,h4,h5,h6,p,ul{
+  padding: 0;
+  margin: 0;
+}
+
+.container{
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 1px solid tomato;
+}
+
+
 .list {
   list-style: none;
 }
@@ -51,6 +64,10 @@ body {
 h2,
 h3 {
   color: var(--accent-color);
+}
+
+.section.hero{
+   background-color: var(--color-background-footer);
 }
 
 .footer{
@@ -98,7 +115,6 @@ background-color: var(--color-background-footer);
 /* Заголовок для "Студія" */
 .hero-title {
   color: var(--primary-white-color);
-  background-color: var(--color-background-footer);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
