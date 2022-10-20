@@ -1,0 +1,169 @@
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+/* Усі кольори */
+:root {
+  --primary-text-color: rgba(117, 117, 117, 1);
+  --primary-white-color: rgba(255, 255, 255, 1);
+  --accent-color: rgba(33, 33, 33, 1);
+  --color-hover-logo-button: rgba(33, 150, 243, 1);
+  --color-background-footer: rgba(47, 48, 58, 1);
+}
+
+.list {
+  list-style: none;
+}
+
+/* ШАПКА і ФУТЕР*/
+.link,
+.email,
+.tel,
+.logo {
+  text-decoration: none;
+}
+
+.logo,
+.link {
+  color: var(--accent-color);
+}
+
+.email,
+.tel {
+  color: var(--primary-text-color);
+}
+
+.logo-element {
+  color: var(--color-hover-logo-button);
+}
+
+.link:hover,
+.link:focus,
+.email:hover,
+.email:focus,
+.tel:hover,
+.tel:focus {
+  color: var(--color-hover-logo-button);
+}
+
+h2,
+h3 {
+  color: var(--accent-color);
+}
+
+.footer{
+background-color: var(--color-background-footer);
+}
+
+.logo-footer{
+  text-decoration: none;
+  color: var(--primary-white-color);
+   font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.geo{
+  color: var(--primary-white-color ) ;
+  font-style: normal;
+}
+/* Робота зі шрифтом  для "Студія"*/
+
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+/* Шрифт для тексту в title-list */
+.text {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* Е-мейл, пошта, навігація для "Студія" */
+.site-nav,
+.email,
+.tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+/* Заголовок для "Студія" */
+.hero-title {
+  color: var(--primary-white-color);
+  background-color: var(--color-background-footer);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+/* h2 для "Студія" */
+.subtitle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+/* h3 для "Студія" */
+.title-list {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.person-names {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.profession {
+  font-size: 16px;
+  line-height: 1.19px;
+}
+
+/* Кнопка (Cтудія)*/
+
+.button {
+  color: var(--primary-white-color);
+  background-color: var(--color-hover-logo-button);
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+/* Робота зі шрифтом для "Портфоліо" */
+
+/*Кнопки(портфоліо)*/
+
+.button-element {
+  color: var(--accent-color);
+  background-color: var(--primary-white-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.heading-port {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.text-port {
+  font-size: 16px;
+  line-height: 1.9;
+}
