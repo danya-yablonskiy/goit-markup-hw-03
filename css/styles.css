@@ -38,12 +38,12 @@ h1,h2,h3,h4,h5,h6,p,ul{
   padding-bottom: 94px;
 }
 
-
- .site-nav{
+.site-nav{
   display: flex;
   margin-left: 93px;
- 
- }
+}
+
+
 
 .site-nav .item + .item{
   margin-left: 50px;
@@ -73,8 +73,7 @@ h1,h2,h3,h4,h5,h6,p,ul{
 .container{
   width: 1200px;
   padding-left: 15px;
-  padding-right: 15px ;
-  outline: 1px solid tomato;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
   
@@ -116,7 +115,7 @@ img{
   color: var(--color-hover-logo-button);
 }
 
-.link.studio:visited{
+.link.visited-effect:visited{
 color: var(--color-hover-logo-button);
 }
 
@@ -225,7 +224,8 @@ background-color: var(--color-background-footer);
 
 .profession {
   font-size: 16px;
-  line-height: 1.19px;
+  line-height: 1.19;
+  margin-bottom: 30px;
 }
 
 /* Кнопка (Cтудія)*/
@@ -255,12 +255,23 @@ background-color: var(--color-background-footer);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
+  padding: 6px 22px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  
+}
+
+.button-element:hover{
+  color: var(--primary-white-color);
+  background-color: var(--color-hover-logo-button);
 }
 
 .heading-port {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-top: 20px;
+  margin-bottom: 4px;
 }
 
 .text-port {
@@ -314,8 +325,31 @@ padding-bottom: 94px;
 
 .person-margin{
   margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .item-person{
   border: 1px solid grey;
 }
+
+/* Класи для портфоліо(позиціонування) */
+ 
+.button-box{
+  display: flex;
+  margin-bottom: 34px;
+  justify-content: center;
+}
+
+.button-box-item:not(:last-child){
+  margin-right: 8px;
+}
+
+.imgs-portfolio{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* .imgs-box-portfolio:not(:nth-last-child(-n+3)){
+  margin-bottom: 30px;
+} */
