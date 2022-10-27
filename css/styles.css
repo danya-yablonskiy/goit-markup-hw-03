@@ -346,7 +346,7 @@ h3 {
   margin-bottom: 34px;
   justify-content: center;
 }
-/* 1 спосіб, зайві 10px на фото */
+/* зайві 10px на фото */
 
 .imgs-portfolio{
   display: flex;
@@ -357,6 +357,8 @@ h3 {
 
 .imgs-box-portfolio{
  flex-basis: calc((100% - 60px) / 3);
+}
+
 
 
 .description{
